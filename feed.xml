@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>π</title>
+    <description></description>
+    <link>https://tobyjamesthomas.github.io</link>
+    <atom:link href="https://tobyjamesthomas.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Chalk sample post with all elements</title>
+        <description>Have a look at all the predesigned elements you can use in Chalk.</description>
+        <pubDate>Sun, 24 Dec 2017 00:00:00 -0500</pubDate>
+        <link>https://tobyjamesthomas.github.io/posts/chalk-sample-post-with-all-elements</link>
+        <guid isPermaLink="true">https://tobyjamesthomas.github.io/posts/chalk-sample-post-with-all-elements</guid>
+      </item>
+    
+      <item>
+        <title>Introducing chalk</title>
+        <description>Chalk is a high quality, completely customizable, performant and 100% free blog template for Jekyll.</description>
+        <pubDate>Sat, 23 Dec 2017 00:00:00 -0500</pubDate>
+        <link>https://tobyjamesthomas.github.io/posts/introducing-chalk</link>
+        <guid isPermaLink="true">https://tobyjamesthomas.github.io/posts/introducing-chalk</guid>
+      </item>
+    
+      <item>
+        <title>How to configure Chalk</title>
+        <description>Learn more about the config file for Chalk and how to set it up properly.</description>
+        <pubDate>Fri, 22 Dec 2017 00:00:00 -0500</pubDate>
+        <link>https://tobyjamesthomas.github.io/posts/configuring-chalk</link>
+        <guid isPermaLink="true">https://tobyjamesthomas.github.io/posts/configuring-chalk</guid>
+      </item>
+    
+  </channel>
+</rss>
