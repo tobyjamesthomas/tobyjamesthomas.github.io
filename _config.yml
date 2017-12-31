@@ -1,9 +1,9 @@
 # Mandatory settings
 
 blog_theme: light # Or use dark
-name: π
+name: Human Startup
 paginate: 10
-url: https://tobyjamesthomas.github.io
+url: https://humanstartup.ca
 
 
 # Optional settings

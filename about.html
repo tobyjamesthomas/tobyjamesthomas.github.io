@@ -1,11 +1,10 @@
 ---
 layout: default
 title: "About"
-description: ""
+description: "Welcome to my site!"
 ---
 
 <div class="about {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-  <!-- <img src="{% asset 'about.jpg' @path %}" alt="About Nielsen Ramon header image" /> -->
   <h1>Hey there 👋</h1>
   <p>
     I'm Toby, a human startup 🚀 – forever learning and growing, meanwhile trying to positively impact people's lives 🎉. I study Software Engineering at the University of Waterloo 🇨🇦, where I spend my time
@@ -15,7 +14,7 @@ description: ""
       taking photos</a> 📸,
     <a href="https://www.youtube.com/c/TobiasTEEHEE" rel="noreferrer noopener" target="_blank" title="YouTube">
       making music</a> 🎵 and learning languages 📚. My biggest adventure, however, is learning how to live and thrive with Ulcerative Colitis 💩. You can read more about it
-    <a href="/" title="Home">
+    <a href="{{ '/' | relative_url }}" title="{{ site.name }}">
       here</a> (coming soon).
   </p>
   <br>
