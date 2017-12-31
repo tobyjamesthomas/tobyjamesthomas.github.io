@@ -1,4 +1,4 @@
-## Welcome to my [site](https://humanstartup.ca/)!
+## Welcome to my [site](https://humanstartup.ca/)! 🎉
 
 This site is powered by [Jekyll](https://jekyllrb.com) on [Github Pages](https://pages.github.com).
 
