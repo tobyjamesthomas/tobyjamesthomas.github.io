@@ -1,38 +1,30 @@
----
-permalink: /404.html
-sitemap: false
----
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Oops! | {{ site.name }}</title>
+  <title>Oops! | Human Startup</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {% if site.local_fonts %}
-    {% asset fonts.css %}
-  {% endif %}
+  
 
-  {% if site.blog_theme == "light" %}
-    {% asset notfound-light.css %}
-  {% else %}
-    {% asset notfound-dark.css %}
-  {% endif %}
+  
+    <link rel="stylesheet" type="text/css" href="/assets/notfound-light-f815264b5b814d6013b18691869ea04ecfbb9a3e49add9ae5c0d08d774eef9ae.css">
+  
 </head>
 <body>
   <main class="notfound-wrapper">
     <div class="notfound-content">
       <h1>😱</h1>
       <p>
-        Looks like you got lost. Let's get you back to the <a href="{{ '/' | relative_url }}">homepage</a>!
+        Looks like you got lost. Let's get you back to the <a href="/">homepage</a>!
       </p>
     </div>
   </main>
 
-  {% unless site.local_fonts %}
-    {% asset webfonts.js %}
-  {% endunless %}
+  
+    <script type="text/javascript" src="/assets/webfonts-74e6f7d23677be56a11573b73ef36cb933a45c2c33a56574f1b2689cb9d5344b.js"></script>
+  
 </body>
 </html>
