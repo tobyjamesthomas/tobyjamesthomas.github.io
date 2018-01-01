@@ -2,7 +2,7 @@
 layout: post
 title: "How to configure Chalk"
 description: "Learn more about the config file for Chalk and how to set it up properly."
-tags: [web, jekyll]
+tags: [project]
 ---
 
 The `_config.yml` file is the most important one. It contains the basic setup of your project.
