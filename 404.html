@@ -10,11 +10,6 @@ sitemap: false
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Oops! | {{ site.name }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  {% if site.local_fonts %}
-    {% asset fonts.css %}
-  {% endif %}
-
   {% if site.blog_theme == "light" %}
     {% asset notfound-light.css %}
   {% else %}
@@ -30,9 +25,5 @@ sitemap: false
       </p>
     </div>
   </main>
-
-  {% unless site.local_fonts %}
-    {% asset webfonts.js %}
-  {% endunless %}
 </body>
 </html>

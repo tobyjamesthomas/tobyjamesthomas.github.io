@@ -12,9 +12,8 @@ about_enabled: true # Change to true if you wish to show an icon in the navigati
 baseurl: # Set if blog doesn't sit at the root of the domain (format: /blog)
 discus_identifier: tobythomas
 ga_analytics: UA-111684074-1
-local_fonts: false # Change to true if you wish to use local fonts
 rss_enabled: false # Change to false if not
-scrollappear_enabled: true # Change to false to disable
+scrollappear_enabled: false # Change to false to disable
 social:
   dribbble: # Add your Dribbble handle
   facebook: # Add your Facebook handle
@@ -70,7 +69,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - package.json
-  - README.md
   - vendor/
   - yarn.lock
 plugins:
