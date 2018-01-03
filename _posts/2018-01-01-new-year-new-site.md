@@ -8,7 +8,7 @@ tags: [blog, health]
 
 _This is my first try at blogging. I'm used to keeping a journal, but I've never made an entry for an audience larger than myself. I wonder how my voice and writing style will change. Nonetheless, I'm excited to start!_
 
-Hey there, welcome to my new site! My name is Toby, and I created this blog with the intension of documenting my life experiences, memories and learnings. I've been wanting to do this for a while, so why not start in the new year? I named it Human Startup because that's how I view my life, like a living startup 😋. Here's a bit about me to break the ice:
+Hey there, welcome to my new site! My name is Toby, and I created this blog with the intention of documenting my life experiences, memories and learnings. I've been wanting to do this for a while, so why not start in the new year? I'm naming it Human Startup because that's how I view my life, like a living startup 😋. Here's a bit about me to break the ice:
 * I'm in my second year of Software Engineering at the University of Waterloo 🎒
 * I love startups, technology and thinking about the future 🔭
 * I'm an artist at heart, with a love for music, design and photography 👩‍🎨
