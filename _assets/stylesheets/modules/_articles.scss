@@ -177,6 +177,12 @@
     margin-bottom: 0;
     vertical-align: middle;
   }
+  .image-caption {
+    margin-top: -15px;
+    font-size: 15px;
+    color: $article-footer-color;
+    text-align: center;
+  }
 }
 
 .article-comments {

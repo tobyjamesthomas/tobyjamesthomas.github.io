@@ -3,3 +3,6 @@
    class="fluidbox-trigger">
   <img src="{% asset '{{ include.path }}' @path %}" alt="{{ include.alt }}" />
 </a>
+{% if include.caption %}
+  <p class="image-caption"><em>{{ include.caption }}</em></p>
+{% endif %}
