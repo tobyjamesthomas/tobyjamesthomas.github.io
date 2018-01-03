@@ -12,7 +12,7 @@ about_enabled: true # Change to true if you wish to show an icon in the navigati
 baseurl: # Set if blog doesn't sit at the root of the domain (format: /blog)
 discus_identifier: tobythomas
 ga_analytics: UA-111684074-1
-rss_enabled: false # Change to false if not
+rss_enabled: true # Change to false if not
 scrollappear_enabled: false # Change to false to disable
 social:
   dribbble: # Add your Dribbble handle
