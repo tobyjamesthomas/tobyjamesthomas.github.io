@@ -6,8 +6,10 @@ $(function() {
     $('.scrollappear').scrollAppear();
   }
 
-  // Fluidbox
-  $('.fluidbox-trigger').fluidbox();
+  // Zooming
+  new Zooming(
+    {customSize: '100%', scaleBase: 0.9, scaleExtra: 0}
+  ).listen('.zooming');
 
   // Share buttons
   $('.article-share a').on('click', function() {
