@@ -1,4 +1,0 @@
----
-slug: health
-name: Health
----
