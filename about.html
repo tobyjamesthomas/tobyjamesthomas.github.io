@@ -1,10 +1,54 @@
----
-layout: default
-title: "About"
-description: "Hey there 👋, I'm Toby – a human startup 🚀. I study Software Engineering at the University of Waterloo 🇨🇦, where I spend my time building things 💻. In my spare time, I enjoy taking photos 📸, making music 🎵 and learning languages 📚. My goal is to explore life, inside and out, contribute where I can, and learn what it means to be human 🦋."
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>About | Human Startup</title>
+  <meta name="description" content="Hey there 👋, I'm Toby – a human startup 🚀. I study Software Engineering at the University of Waterloo 🇨🇦, where I spend my time building things 💻. In my spare time, I enjoy taking photos 📸, making music 🎵 and learning languages 📚. My goal is to explore life, inside and out, contribute where I can, and learn what it means to be human 🦋.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="about {% if site.scrollappear_enabled %}scrollappear{% endif %}">
+  <meta property="og:title" content="About">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://humanstartup.ca/about">
+  <meta property="og:description" content="Hey there 👋, I'm Toby – a human startup 🚀. I study Software Engineering at the University of Waterloo 🇨🇦, where I spend my time building things 💻. In my spare time, I enjoy taking photos 📸, making music 🎵 and learning languages 📚. My goal is to explore life, inside and out, contribute where I can, and learn what it means to be human 🦋.">
+  <meta property="og:site_name" content="Human Startup">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://humanstartup.ca/about">
+  <meta name="twitter:title" content="About">
+  <meta name="twitter:description" content="Hey there 👋, I'm Toby – a human startup 🚀. I study Software Engineering at the University of Waterloo 🇨🇦, where I spend my time building things 💻. In my spare time, I enjoy taking photos 📸, making music 🎵 and learning languages 📚. My goal is to explore life, inside and out, contribute where I can, and learn what it means to be human 🦋.">
+
+  
+    <meta property="og:image" content="https://humanstartup.ca/assets/og-image-6a66059fd42151c521e3bb42de2bd128602fbadb67a541bf79354ffb684bc742.jpg">
+    <meta name="twitter:image" content="https://humanstartup.ca/assets/og-image-6a66059fd42151c521e3bb42de2bd128602fbadb67a541bf79354ffb684bc742.jpg">
+  
+
+  <link href="https://humanstartup.ca/feed.xml" type="application/rss+xml" rel="alternate" title="Human Startup"/>
+
+  <link rel="icon" type="image/x-icon" href="/assets/favicon-6cb7a4b6912c59cb7ac340963b39df3c24257a73b473f6f964a689a5b7629692.ico">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon-3e8b99137fc5038bc56f6fc935be4d2c4dac48b6c7deacc2c31252de1f413bb0.png">
+
+  
+    <link rel="stylesheet" type="text/css" href="/assets/light-b9425f2296d42fce3ff50b1f816815a61374eac8b45982d0cb5dfc252ac03023.css">
+  
+</head>
+
+<body>
+  <main>
+    <div class="grid grid-centered">
+      <div class="grid-cell">
+        <nav class="header-nav ">
+  <h1 class="header-title">Human Startup</h1>
+  
+  <h5 class="header-links">
+    <a href="/" title="Home">Home</a>
+    /
+    <a href="/about" title="About">About</a>
+    /
+    <a href="https://til.humanstartup.ca" title="Today I Learned">Learn</a>
+  </h5>
+</nav>
+
+        <div class="about ">
   <h1>What's Human Startup?</h1>
   <p>
     Human Startup is a mindset that I've adopted over the years while working at numerous startups 👨‍💻. The idea is to be a curious learner 🐯, constantly improving 🛠 and driven to innovate 💡. All the while thinking about how I can positively impact people's lives ✨. That's what I really care about ❤️. Join me and live life like a startup! 🚀
@@ -19,9 +63,9 @@ description: "Hey there 👋, I'm Toby – a human startup 🚀. I study Softwar
       taking photos</a> 📸,
     <a href="https://www.youtube.com/c/TobiasTEEHEE" rel="noreferrer noopener" target="_blank" title="YouTube">
       making music</a> 🎵 and
-    <a href="{{ site.til }}" title="Today I Learned">
+    <a href="https://til.humanstartup.ca" title="Today I Learned">
       learning</a> 📚. My goal is to explore life, inside and out, contribute where I can, and learn what it means to be human 🦋. Read about my journey
-    <a href="{{ 'tag/health' | relative_url }}" title="Health">
+    <a href="/tag/health" title="Health">
       here</a>!
   </p>
   <br>
@@ -29,3 +73,37 @@ description: "Hey there 👋, I'm Toby – a human startup 🚀. I study Softwar
     Thanks for visiting! 🖖
   </p>
 </div>
+
+        <footer class="footer ">
+  <p>
+    <a href="https://github.com/tobyjamesthomas" rel="noreferrer noopener" target="_blank" title="GitHub">Github</a>
+    /
+    <a href="https://www.linkedin.com/in/tobythomas" rel="noreferrer noopener" target="_blank" title="LinkedIn">LinkedIn</a>
+    /
+    <a href="mailto:toby@humanstartup.ca?subject=Hello!" title="Email">Email</a>
+    /
+    <a href="/feed.xml" rel="noreferrer noopener" target="_blank" title="RSS">RSS</a>
+  </p>
+</footer>
+
+      </div>
+    </div>
+  </main>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111684074-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-111684074-1');
+  </script>
+
+
+<script src="/assets/vendor-c9e1548ba2e7793380d0d518d1051ca3ac4b66f98a2e6293c9afc0e5b6097710.js" type="text/javascript"></script>
+
+
+
+<script src="/assets/application-e55645215a4bb26cb7b430e1ce9ea048512c8cc57a112dd224a77a8f49956526.js" type="text/javascript"></script>
+
+</body>
+</html>
