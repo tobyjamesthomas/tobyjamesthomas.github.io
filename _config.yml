@@ -4,6 +4,7 @@ blog_theme: light # Or use dark
 name: Human Startup
 paginate: 10
 url: https://humanstartup.ca
+til: https://til.humanstartup.ca
 
 
 # Optional settings
