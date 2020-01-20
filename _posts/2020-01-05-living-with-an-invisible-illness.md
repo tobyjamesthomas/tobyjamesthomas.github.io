@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Living with an Invisible Illness"
-description: "A talk about my experience living with an invisible illness."
+description: "A talk I gave at Shopify in Montréal."
 thumb_image: "posts/living-with-an-invisible-illness/tobys-talk.png"
 tags: [blog, health]
 ---
